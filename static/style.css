@@ -1,0 +1,31 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+a {
+    font-size: 50px;
+    color: black;
+}
+
+.btn {
+    border-radius: 10px;
+    color: white;
+    padding-left: 5px;
+    transition: .2s linear;
+    background: black;
+}
+
+.btn:hover {
+    -webkit-transform: rotateZ(5deg);
+    -ms-transform: rotateZ(5deg);
+    transform: rotateZ(5deg);
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
